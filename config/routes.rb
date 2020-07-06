@@ -8,4 +8,6 @@ Rails.application.routes.draw do
   unauthenticated :user do
     root to: "pages#landing", as: :unauthenticated_root
   end
+
+  get '/profile', to: 'profile#index'
 end
