@@ -10,4 +10,8 @@ Rails.application.routes.draw do
   end
 
   get '/profile', to: 'profile#index'
+
+  namespace :api do
+    resources :plays, only: :create
+  end
 end
