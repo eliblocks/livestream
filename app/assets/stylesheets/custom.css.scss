@@ -24,3 +24,28 @@
   margin-top: 2rem;
 }
 
+.landing-page {
+  height: 100vh;
+  background: url("/thunderstorm.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.landing-nav {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.cta {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-top: 5rem;
+  color: white;
+  padding-bottom: 5rem;
+  max-width: 640px;
+  margin: 0 auto;
+}

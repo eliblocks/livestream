@@ -1,3 +1,27 @@
-<h4>Landing</h4>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Livestream</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<%= link_to "Log in", new_user_session_path %>
+    <%= stylesheet_link_tag 'application', media: 'all' %>
+   <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    >
+  </head>
+
+  <body class="landing-page">
+    <div class="landing-nav">
+      <h3 class="landing-brand">LiveStream Channel</h4>
+      <a href="/users/sign_in" class="btn btn-primary">Log in</a>
+    </div>
+    <div class="cta text-center mt-5">
+      <h1>Watch my premium channel</h4>
+      <a href="/users/sign_up" class="btn btn-primary btn-lg mt-3">Sign up</a>
+    </div>
+  </body>
+</html>
