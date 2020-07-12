@@ -14,4 +14,6 @@ Rails.application.routes.draw do
   namespace :api do
     resources :plays, only: :create
   end
+
+  resources :charges, only: :new
 end

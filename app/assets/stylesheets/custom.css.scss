@@ -7,7 +7,11 @@
 
 .devise-form {
   max-width: 500px;
-  margin-top: 2rem;
+  margin-top: 1rem;
+}
+
+.devise-form h2 {
+  margin-bottom: 1rem;
 }
 
 @media (min-width: 640px) {
